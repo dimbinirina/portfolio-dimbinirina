@@ -238,8 +238,8 @@ transition: 0.5s;}
 .content-copyright p {font-size: 13px;margin-bottom: 0;color: #D9D9D9;margin-top: 8px;}
 .ruturn-up {text-align: right;}
 .ruturn-up span:first-child {font-size: 12px;font-weight: 700;color: #D9D9D9;}
-.icon-up {display: inline-block;background: #BFBFBF;padding: 0 6px;margin-left: 10px; cursor: pointer;}
-.icon-up .svg-inline--fa {color: #000000;font-size: 25px;padding-top: 4px;}
+.icon-up {display: inline-block;background: #000;padding: 5px 10px;cursor: pointer;}
+.icon-up .svg-inline--fa {color: #d90000;font-size: 25px;padding-top: 4px;}
 #logo-sticky{display: none;}
 .header-fixed .bg-topbar{background: #212121; transition: 0.5s;}
 .header-fixed .bg-header-menu{background: #D50000; transition: 0.5s;}
@@ -278,3 +278,11 @@ input[type="radio"]:checked + *::before {background: radial-gradient(#BFBFBF 0%,
     padding: 10px 20px !important;color: #fff !important; transition: 0.5s;}
 .submit-form-tarif:hover{background-color: #252525 !important; border: solid 1px #252525 !important;}
 #association-show, #societe-show{display: none;}
+.title-rdv h2 {font-size: 30px;color: #fff;font-weight: 700;}
+.title-rdv p {color: #fff;font-size: 16px;}
+.btn-rdv {text-align: center; margin-top: 45px;}
+.btn-rdv a {background-color: #252525 !important;border: solid 1px #252525 !important;color: #fff;display: inline-block;padding: 10px 30px;text-decoration: none 
+    !important; transition: 0.5s;}
+.btn-rdv a:hover{background-color: #fff !important;border: solid 1px #fff !important; color: #252525;}
+.ruturn-up {display: none;position: fixed;bottom: 20px; right: 20px;color: #fff;padding: 10px 15px;border-radius: 5px;cursor: pointer;transition: opacity 0.3s ease-in-out;}
+.ruturn-up.show {display: block;opacity: 1;}

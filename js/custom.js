@@ -95,6 +95,13 @@ $(document).ready(function(){
     $("#particulier").click(function(){
         $("#societe-show").hide();
     });
+    const returnUp = document.querySelector(".ruturn-up");
 
-
+    window.addEventListener("scroll", function () {
+        if (window.scrollY > 100) { // Afficher après 100px de scroll
+            returnUp.classList.add("show");
+        } else {
+            returnUp.classList.remove("show");
+        }
+    });
 });
